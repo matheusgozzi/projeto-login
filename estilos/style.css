@@ -1,0 +1,21 @@
+@charset 'UTF-8';
+
+:root{
+    --cor-principal: #4741F0 ;
+    --cor-secundaria: #41E1F0;
+    --cor-background: #91ACF0;
+    --cor-complementar: #41AAF0; 
+    --cor-marcante: #8041F0;
+
+}
+body{
+    background-color: var(--cor-background) ;
+}
+
+h1{
+    color: var(--cor-principal);
+}
+
+p{
+    color: var(--cor-secundaria);
+}
