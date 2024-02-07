@@ -2,9 +2,9 @@
 
 :root{
     --cor-principal: #4741F0 ;
-    --cor-secundaria: #41E1F0;
+    --cor-secundaria: #a0e6ec;
     --cor-background: #91ACF0;
-    --cor-complementar: #41AAF0; 
+    --cor-complementar: #b2cddf; 
     --cor-marcante: #8041F0;
 
 }
@@ -24,10 +24,15 @@ main{
 
 h1{
     color: var(--cor-principal);
+    padding: 5px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.24);
 }
 
 p{
     color: var(--cor-principal);
+    padding: 5px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.24);
+    
 }
 
 main section{
@@ -37,6 +42,7 @@ main section{
     background-color: #FFFFFF;
     transform: translate(-50%, -50%);
     height: 500px;
+    width: 300px;
     border-radius: 20px;
     box-sizing: border-box;
     overflow: hidden;
@@ -56,4 +62,62 @@ main section{
     padding:20px;
     text-align: center;
     display: block;
+    height: 100%;
+}
+
+div.campo{
+    height: 40px;
+    background-color: var(--cor-background);
+    border-radius: 5px;
+    margin: 5px 0;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    justify-content: space-around;
+    
+}
+
+div.campo label{
+    display: none;
+}
+
+
+/*  Botoes */
+form input[type=submit] {
+    display: block;
+    font-size: 1.5em;
+    width:100%;
+    height: 40px;
+    background-color: var(--cor-complementar);
+    border: none;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.315);
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form input[type=submit]:hover{
+    background-color: var(--cor-marcante);
+    color: #FFFFFF;
+    transition: 0.2s;
+}
+
+form a.botao{
+    display: block;
+    border: 1px solid var(--cor-principal);
+    height: 40px;
+    margin-top: 10px;
+    background-color: var(--cor-principal);
+    color: #FFFFFF;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 100%;
+    font-size: 1.3em;
+}
+
+form a.botao:hover{
+    background-color: var(--cor-secundaria);
+    color: black;
+    transition: 0.2s;
 }

@@ -5,7 +5,7 @@
         background-image: linear-gradient(to bottom, var(--cor-marcante), var(--cor-secundaria));
     }
     
-    section{
+    main section{
         width: 90vw;
     }
 
@@ -27,7 +27,7 @@
     body{
         background-image: linear-gradient(to bottom, var(--cor-marcante), var(--cor-secundaria));
     }
-    section{
+    main section{
         width: 950px;
     }
 
