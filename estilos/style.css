@@ -52,7 +52,7 @@ main section{
 }
 
 #imagem{
-    background: rgb(37, 112, 134) url(/imagens/imagem-pattern.jpg) no-repeat center center;
+    background: rgb(37, 112, 134) url(../imagens/imagem-pattern.jpg) no-repeat center center;
     height: 150px;
     background-size: cover;
     display: block;
